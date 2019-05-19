@@ -5,6 +5,9 @@
 .post-content {
   margin-bottom: $content-margin-bottom;
 
+  font-size:17px;
+  line-height:1.8em;
+
   @for $i from 1 through 6 {
     h#{$i} {
       font-size: 1.3em;
